@@ -1,0 +1,336 @@
+@CHARSET "ISO-8859-1";
+.footer-distributed{
+	background-color: #292c2f;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+
+	padding: 55px 50px;
+	margin-top: 80px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+	width: 40%;
+}
+
+.error
+{
+	color:red;
+}
+
+/* The company logo */
+
+.footer-distributed h3{
+	color:  #ffffff;
+	font: normal 36px 'Cookie', cursive;
+	margin: 0;
+}
+
+.footer-distributed h3 span{
+	color:  #5383d3;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+	color:  #ffffff;
+	margin: 20px 0 12px;
+	padding: 0;
+}
+
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+	color:  #8f9296;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center{
+	width: 35%;
+}
+
+.footer-distributed .footer-center i{
+	background-color:  #33383b;
+	color: #ffffff;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope{
+	font-size: 17px;
+	line-height: 38px;
+}
+
+.footer-distributed .footer-center p{
+	display: inline-block;
+	color: #ffffff;
+	vertical-align: middle;
+	margin:0;
+}
+
+.footer-distributed .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+
+.footer-distributed .footer-center p a{
+	color:  #5383d3;
+	text-decoration: none;;
+}
+
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+	width: 20%;
+}
+
+.footer-distributed .footer-company-about{
+	line-height: 20px;
+	color:  #92999f;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.footer-distributed .footer-company-about span{
+	display: block;
+	color:  #ffffff;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons{
+	margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #33383b;
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 880px) {
+
+	.footer-distributed{
+		font: bold 14px sans-serif;
+	}
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-center,
+	.footer-distributed .footer-right{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+
+	.footer-distributed .footer-center i{
+		margin-left: 0;
+	}
+
+}
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 100%;
+      max-height: 550px;
+      margin: auto;
+  }
+  
+  .blue-button{  
+    background: #25A6E1;  
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#25A6E1',endColorstr='#188BC0',GradientType=0);  
+    padding:3px 5px;  
+    color:#fff;  
+    font-family:'Helvetica Neue',sans-serif;  
+    font-size:12px;  
+    border-radius:2px;  
+    -moz-border-radius:2px;  
+    -webkit-border-radius:4px;  
+    border:1px solid #1A87B9  
+}       
+table {  
+  font-family: "Helvetica Neue", Helvetica, sans-serif;  
+   width: 50%;  
+}  
+th {  
+  background: SteelBlue;  
+  color: white;  
+}  
+ td,th{  
+                border: 1px solid gray;  
+                width: 25%;  
+                text-align: left;  
+                padding: 5px 10px;  
+            }  
+            
+            
+/* new login form style*/            
+            
+         @import "compass/css3";
+
+$back-color: #F0F0F0;
+$green-border: #72B372;
+
+@mixin linear-gradient($top, $bottom) {
+  background: $top;
+  background: -webkit-linear-gradient($top, $bottom);
+	background: -moz-linear-gradient($top, $bottom);
+	background: -o-linear-gradient($top, $bottom);
+	background: linear-gradient($top, $bottom);
+}   
+  .main > div {
+  align="centre";
+  display: inline-block;
+  width: 49%;
+  margin-top: 10px;
+}
+
+.two .register {
+  border: none;
+}
+.two .register h3 {
+  border-bottom-color: #909090;
+}
+.two .register .sep {
+  border-color: #909090;
+}
+
+.register {
+  width: 500px;
+  margin: 10px auto;
+  padding: 10px;
+  border: 7px solid #72B372;
+  border-radius: 10px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #444;
+  background-color: #F0F0F0;
+  box-shadow: 0 0 20px 0 #000000;
+}
+.register h3 {
+  margin: 0 15px 20px;
+  border-bottom: 2px solid #72B372;
+  padding: 5px 10px 5px 0;
+  font-size: 1.1em;
+}
+.register div {
+  margin: 0 0 15px 0;
+  border: none;
+}
+.register label {
+  display: inline-block;
+  width: 25%;
+  text-align: right;
+  margin: 10px;
+}
+.register input[type=text], .register input[type=password] {
+  width: 65%;
+  font-family: "Lucida Grande","Lucida Sans Unicode",Tahoma,Sans-Serif;
+  padding: 5px;
+  font-size: 0.9em;
+  border-radius: 5px;
+  background: rgba(0, 0, 0, 0.07);
+}
+.register input[type=text]:focus, .register input[type=password]:focus {
+  background: #FFFFFF;
+}
+.register .button {
+  font-size: 1em;
+  border-radius: 8px;
+  padding: 10px;
+  border: 1px solid #59B969;
+  box-shadow: 0 1px 0 0 #60BD49 inset;
+  background: #63E651;
+  background: -webkit-linear-gradient(#63E651, #42753E);
+  background: -moz-linear-gradient(#63E651, #42753E);
+  background: -o-linear-gradient(#63E651, #42753E);
+  background: linear-gradient(#63e651, #42753e);
+}
+.register .button:hover {
+  background: #51DB1C;
+  background: -webkit-linear-gradient(#51DB1C, #6BA061);
+  background: -moz-linear-gradient(#51DB1C, #6BA061);
+  background: -o-linear-gradient(#51DB1C, #6BA061);
+  background: linear-gradient(#51db1c, #6ba061);
+}
+.register .sep {
+  border: 1px solid #72B372;
+  position: relative;
+  margin: 35px 20px;
+}
+.register .or {
+  position: absolute;
+  width: 50px;
+  left: 50%;
+  background: #F0F0F0;
+  text-align: center;
+  margin: -10px 0 0 -25px;
+  line-height: 20px;
+}
+.register .connect {
+  width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+.register .social-buttons {
+  display: inline-block;
+  min-width: 150px;
+  height: 50px;
+  margin: 0 5px 10px;
+  border-radius: 10px;
+  text-shadow: 1px 1px 5px #000000;
+}
+.register .social-buttons a {
+  display: block;
+  height: 100%;
+  text-decoration: none;
+  color: #FFFFFF;
+  padding: 10px 15px;
+}
+.register .social-buttons span {
+  font-size: 30px;
+  margin-left: 35px;
+}
+       
